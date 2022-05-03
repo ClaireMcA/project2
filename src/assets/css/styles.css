@@ -1,40 +1,40 @@
+
+/* General Styles */
 body {
     font-size: 16px;
     background-color: #f4f4f4;
     font-family: sans-serif;
 }
-
 h1 {
     font-size: 2em;
-    /* shorthand for TOP RIGHT BOTTOM LEFT */
-    /* margin: 1em 0 1.5em 0; */
-}
 
+}
 h2 {
     font-size: 1.6em;
 }
-
 h3 {
     font-size: 1.4em;
 }
-
 p {
     font-size: 1.2em;
     line-height: 1.5em;
-    margin-bottom: 1.5em;
 }
 
+
+/* All Content including hero */
 .inner-wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 header,
 footer {
-    background-color: #777999;
+    background-color: rgb(223, 149, 0);
     padding: 2em 0;
 }
 
+
+/* Hero content */
 .hero {
     text-align: center;
     background: #a5a5a5;
@@ -50,7 +50,8 @@ footer {
 }
 
 
-
-main {
-    margin-bottom: 2em;
+/* All the content below the hero */
+.main-content {
+    width: 80%;
+    
 }
