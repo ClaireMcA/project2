@@ -1,11 +1,15 @@
 ---
 # set the layout to use, in this case, the homepage one
-layout: layouts/content
+layout: layouts/choice
 
 # set the page title
-title: About
+title: Choose Your Own Adventure
 
 
+# These are the links for choices
+choice:
+    link1: <a href=''>Your Choice</a>
+    link2: <a href=''>Your Other Choice</a>
 ---
 
 

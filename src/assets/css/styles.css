@@ -1,13 +1,23 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --light-gray: rgb(165, 165, 165);
+    --gray: rgb(53, 53, 53);
+    --yellow: rgb(223, 149, 0);
+    --dark-yellow: rgb(171, 114, 0);
+}
 
-/* General Styles */
+
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
-    font-family: sans-serif;
+    background-color: var(--black);
+    font-family: 'Share Tech', sans-serif;
 }
 h1 {
-    font-size: 2em;
-
+    font-family: 'Press Start 2P', cursive;;
+    font-size: 3em;
+    text-align: center;
+    align-self: center;
 }
 h2 {
     font-size: 1.6em;
@@ -23,35 +33,97 @@ p {
 
 /* All Content including hero */
 .inner-wrapper {
-    width: 100%;
+    width: auto;
     margin: 0 auto;
+    height: auto;
 }
 
-header,
-footer {
-    background-color: rgb(223, 149, 0);
-    padding: 2em 0;
-}
-
-
-/* Hero content */
-.hero {
-    text-align: center;
-    background: #a5a5a5;
-    min-height: 5em;
-    padding: 2em;
-    margin: 1em 0;
-    /* vertically align */
-    display: flex;
+header {
+    display: grid;
+    background-color: var(--yellow);
+    padding: 0 2em;
+    height: 7rem;
     align-items: center;
-    justify-content: center;
-
-
 }
 
 
-/* All the content below the hero */
-.main-content {
-    width: 80%;
-    
+
+footer {
+    background-color: var(--yellow);
+    padding: 0 2em;
+    height: 7rem;
 }
+footer .inner-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: "bk qt";
+    height: 7rem;
+}
+footer .nav {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--dark-yellow);
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    place-self: center;
+}
+footer p {
+    place-self: center;
+}
+footer .nav-1 {
+    grid-area: bk;
+    margin-right: 16rem;
+}
+footer .nav-2 {
+    grid-area: qt;
+    margin-left: 16rem;
+}
+.main-content footer p {
+    display: none;
+}
+
+/* General Content Formatting */
+.main-content, .choice-content {
+    text-align: center;
+    background: var(--light-gray);
+    min-height: calc(100vh - 20rem);
+    padding: 2em;
+    margin: 1em 1em;
+}
+
+/* Choice Page Formatting */
+.choice-content {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    column-gap: 2rem;
+    grid-template-areas:    "cn cn"
+                            "ch1 ch2"
+}
+.link {
+    place-self: center;
+    background-color: var(--gray);
+    cursor: pointer;
+    margin-top: 0.5rem;
+    width: 12rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+}
+.link a {
+    color: var(--white);
+    text-decoration: none;
+}
+.question {
+    grid-area: cn;
+    align-self: center;
+}
+.link-1 {
+    grid-area: ch1;
+    justify-self: right;
+}
+.link-2 {
+    grid-area: ch2;
+    justify-self: left;
+}
+

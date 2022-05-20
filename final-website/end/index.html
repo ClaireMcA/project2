@@ -8,15 +8,19 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Load in Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech&display=swap" rel="stylesheet">
 <!-- load our reset stylesheet -->
-<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="../assets/css/reset.css">
 <!-- load our main stylesheet -->
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 
 <!-- you could add favicons etc here -->
 
     <!-- set the site title to be a variable, defined in the md file -->
-    <title>About</title>
+    <title>Choose Your Own Adventure</title>
 </head>
 
 <body>
@@ -24,7 +28,7 @@
     <!-- The content in this file is inserted into the base.html file -->
 <header>
     <div class="inner-wrapper">
-        <h1>About</h1>
+        <h1>Choose Your Own Adventure</h1>
     </div>
 </header>
 
@@ -35,13 +39,19 @@
             
             
 
-<div class="main-content">
-    <h1>Hello!</h1>
-<h2>I am your about Page</h2>
-<p>Any content you add to this markdown file will be displayed on the about page.</p>
+<div class="choice-content">
+    <div class="question">
+        <h1>Hello!</h1>
+<h2>I am your index.md file</h2>
+<p>Any content you add to this markdown file will be displayed on the homepage...</p>
 
-    
-    
+    </div>
+    <p class="link link-1">
+        <a class="nav nav-1" href="javascript:window.history.back();">Back</a>
+    </p>
+    <p class="link link-2">
+        <a class="nav nav-2" href="../">Give Up</a>
+    </p>
 </div>
 
 
@@ -55,8 +65,7 @@
     <!-- The content in this file is inserted into the base.html file -->
 <footer>
     <div class="inner-wrapper">
-        <p><a href="javascript:window.history.back();">Back</a></p>
-        <p><a href="index.html">Quit</a></p>
+
     </div>
 </footer>
 
