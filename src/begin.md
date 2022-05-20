@@ -8,13 +8,9 @@ title: Choose Your Own Adventure
 
 # These are the links for choices
 choice:
-    link1: <a href=''>Your Choice</a>
-    link2: <a href=''>Your Other Choice</a>
+    link1: <a href='../freak'>Freak out and ride the opposite direction</a>
+    link2: <a href='../chase-bike'>You follow them at speed</a>
 ---
 
 
-# Hello!
-
-## I am your about Page
-
-Any content you add to this markdown file will be displayed on the about page. 
+You are riding your dirt bike down a trail. A mysterious rider of a black dirt bike appears and cut straight accross your path.

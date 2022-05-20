@@ -8,13 +8,9 @@ title: Choose Your Own Adventure
 ---
 
 
-# Hello!
+## Strap yourself in and prepare for your very own Choose Your Own Adventure
 
-## I am your index.md file
-
-Any content you add to this markdown file will be displayed on the homepage...
+Read along with the story and use the buttons to make your decisions.
 
 
-
-
-<a href="begin">Are you ready to begin?</a>
+<a href="begin">Click Here to Begin</a>
