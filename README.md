@@ -18,7 +18,7 @@ Once the templates had been created it was only a matter of creating the hierach
 Having set up all the pages and linked them up, it was time to run through the site in full. While I found it to be a bit clunky sometimes, all in all it worked quite well.
 
 ## 'Make it Live' attempt
-After building out the site with npm, I used the Siteground account I have from last year to put the site online. it can be found at (clairemcauliffe.com)[clairemcauliffe.com] (hopefully). All in all it was a fun little project to complete, not entirely without it's faults, but I am pleased with the way it turned out.
+After building out the site with npm, I used the Siteground account I have from last year to put the site online. it can be found at [clairemcauliffe.com](clairemcauliffe.com) (hopefully). All in all it was a fun little project to complete, not entirely without it's faults, but I am pleased with the way it turned out.
 
 
 
