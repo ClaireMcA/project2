@@ -99,6 +99,13 @@ footer .nav-2 {
 footer .par-2 {
     justify-self: end;
 }
+footer .home-nav {
+
+}
+footer .par-3 {
+    justify-self: start;
+    grid-area: 1 / 1 / 2 / 3;
+}
 
 
 
